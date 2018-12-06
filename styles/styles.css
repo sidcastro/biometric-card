@@ -1,5 +1,7 @@
 body {
   background-color: #27404A;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 img.logo {
