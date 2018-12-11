@@ -1,0 +1,82 @@
+body {
+  background-color: #27404A;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: aktiv-grotesk, sans-serif;
+}
+
+img.logo {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+
+  max-width: 100%;
+  height: auto !important;
+}
+
+img.user {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+
+  max-width: 100%;
+  height: auto !important;
+}
+
+h1 {
+  padding-top: 2%;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bold;
+}
+
+.box-structure {
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box-content {
+  font-size: 30px;
+  color: #111E24;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bold;
+}
+
+.red-text {
+  color: red;
+  font-weight: 100;
+}
+
+#myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5 {
+  width: 100%;
+  text-align: center;
+  background-color: #91908f;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.link-to {
+  font-size: 28px;
+  color: #D79933;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: regular;
+  padding: 15px;
+  width: 90%;
+  text-align: right;
+}
+
+.shadow {
+  box-shadow: 10px 10px #91908f;
+}
