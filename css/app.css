@@ -45,6 +45,13 @@ h1 {
   margin: 0 auto;
 }
 
+.big-box-structure {
+  background-color: white;
+  padding: 50px 20px 50px 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .box-content {
   font-size: 30px;
   color: #111E24;
@@ -72,11 +79,19 @@ h1 {
   color: #D79933;
   font-family: aktiv-grotesk, sans-serif;
   font-weight: regular;
-  padding: 15px;
+  padding: 20px;
   width: 90%;
   text-align: right;
 }
 
 .shadow {
   box-shadow: 10px 10px #91908f;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
 }
