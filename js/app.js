@@ -1,7 +1,7 @@
 $(document).foundation()
 
 function myFunction() {
-  var elements = ["myDIV1", "myDIV2", "myDIV3", "myDIV4", "myDIV5"];
+  var elements = ["location-1", "location-2", "location-3", "location-4", "location-5"];
 
   for(i = 0; i < elements.length; i++) {
     var x = document.getElementById(elements[i]);

@@ -1,8 +1,49 @@
 body {
+  /* background-image: linear-gradient(to bottom right, red, yellow);
+  background-repeat: no-repeat;
+  background-size: cover; */
   background-color: #27404A;
   max-width: 100%;
   margin: 0 auto;
   font-family: aktiv-grotesk, sans-serif;
+}
+
+.home-page {
+  /* background-color: #27404A; */
+  background-image: url("/images/train.jpg");
+  background-size: 1000px 2150px;
+}
+
+.home-slogan {
+  padding-top: 40%;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bolder;
+  text-shadow: 3px 3px #030303;
+}
+
+.home-desc {
+  padding-top: 10%;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bolder;
+  text-shadow: 3px 3px #030303;
+}
+
+img.home-logo {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 40%;
+  max-width: 100%;
+  height: auto !important;
 }
 
 img.logo {
@@ -30,7 +71,7 @@ img.user {
 }
 
 h1 {
-  padding-top: 2%;
+  padding-top: 3%;
   font-size: 55px;
   text-align: center;
   color: white;
@@ -64,7 +105,7 @@ h1 {
   font-weight: 100;
 }
 
-#myDIV1, #myDIV2, #myDIV3, #myDIV4, #myDIV5 {
+#location-1, #location-2, #location-3, #location-4, #location-5 {
   width: 100%;
   text-align: center;
   background-color: #91908f;
@@ -94,4 +135,97 @@ h1 {
 
 .right-align {
   text-align: right;
+}
+
+.swivel-parent {
+  display: block;
+  padding-top: 30%;
+  margin: auto auto auto auto;
+  perspective: 10px;
+}
+
+img.hand {
+  display: block;
+  padding-top: 5%;
+  margin: auto auto auto auto;
+
+  animation:swivel .6s ease-in-out infinite alternate;
+}
+
+@keyframes swivel {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-.2deg);
+  }
+}
+
+.how-to {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 30%;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: bold;
+
+  max-width: 100%;
+  height: auto !important;
+}
+
+.how-to-desc {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  line-height: normal;
+
+  max-width: 100%;
+  height: auto !important;
+}
+
+.button {
+  display: block;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #D79933;
+  border: none;
+  color: #111E24;
+  padding: 40px 200px 40px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+
+  max-width: 100%;
+  height: auto !important;
+}
+
+.round-button {
+  border-radius: 12px;
+}
+
+img.my-hand {
+  display: block;
+  padding-top: 30%;
+  margin: auto auto auto auto;
+
+  max-width: 100%;
+  height: auto !important;
 }
